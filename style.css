@@ -1,0 +1,63 @@
+/*
+Style Guide:
+1. Reset
+2. Section-one
+3. Section-two
+*/
+
+/*------------ Reset ------------------*/
+* {
+    padding: 0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*------------ Section-one ------------------*/
+.section-one{
+    width: 100%;
+    height: 100%;
+    background-color: #c2c2ff;
+    overflow: hidden;
+}
+.title{
+    font-size: 350px;
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: 410px;
+    background-image: url('images/city.png');
+    background-repeat: repeat-x;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: contain;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+}
+.subtitle{
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    margin: 10px;
+    z-index: 1;
+}
+
+
+/*------------ Section-two ------------------*/
+.section-two{
+    width: 100%;
+    height: 100%;
+    background-color: #1f5ba9;
+    overflow: hidden;
+    position: relative;
+}
